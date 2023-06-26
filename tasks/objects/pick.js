@@ -9,4 +9,5 @@ function pick(object, path){
     }
     return newObj;
 }
+
 module.exports = pick;

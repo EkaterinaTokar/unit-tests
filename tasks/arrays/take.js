@@ -5,4 +5,5 @@ function take(array, num = 1){
     }
     return array;
 }
+
 module.exports = take;

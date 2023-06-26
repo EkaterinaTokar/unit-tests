@@ -11,8 +11,8 @@ function omit(object, paths){
         if (!shouldOmit) {
             newObj[key] = object[key];
         }
-
     }
     return newObj;
 }
+
 module.exports = omit;

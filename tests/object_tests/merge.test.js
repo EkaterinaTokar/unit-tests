@@ -7,6 +7,6 @@ let other = {
     'a': [{ 'c': 3 }, { 'e': 5 }]
 };
 
-test('Creates an array of elements split into groups the length of size', () => {
+test('Returns object', () => {
     expect(merge(object, other)).toEqual({ 'a': [{ 'b': 2, 'c': 3 }, { 'd': 4, 'e': 5 }] });
 });

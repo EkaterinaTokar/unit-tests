@@ -9,4 +9,5 @@ function zip(...arg) {
     }
     return newArr;
 }
+
 module.exports = zip;

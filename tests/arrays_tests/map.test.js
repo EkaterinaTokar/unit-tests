@@ -8,7 +8,7 @@ let users = [
     { 'user': 'fred' }
 ];
 
-test('Creates an array of elements split into groups the length of size', () => {
+test(' Returns the new mapped array', () => {
     expect(map([4, 8], square)).toEqual([16, 64]);
     expect(map({ 'a': 4, 'b': 8 }, square)).toEqual([16, 64]);
     expect(map(users, 'user')).toEqual(['barney', 'fred']);

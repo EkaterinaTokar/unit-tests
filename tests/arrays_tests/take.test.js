@@ -1,6 +1,6 @@
 const take = require('../../tasks/arrays/take');
 
-test('Creates a slice of array with num elements taken from the beginning', () => {
+test('Returns the slice of array', () => {
     expect(take([1, 2, 3])).toEqual([1]);
     expect(take([1, 2, 3], 2 )).toEqual([1, 2]);
     expect(take([],3 )).toEqual([]);

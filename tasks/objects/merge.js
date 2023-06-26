@@ -6,6 +6,7 @@ function merge(object, other){
             newArr[prop][j] = { ...object[prop][j], ...other[prop][j] };
         }
     }
-    return newArr
+    return newArr;
 }
+
 module.exports = merge;
